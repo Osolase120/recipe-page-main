@@ -1,0 +1,1739 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+    /* font-family: "Outfit", sans-serif; */
+}
+
+img{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 400px;
+}
+
+h1{
+    position: relative;
+    top: 20px;
+    left: 0;
+    margin-left: 18px;
+    font-family: "Young Serif", serif;
+    font-weight: 700;
+    line-height: 1;
+}
+
+
+.easy{
+    position: relative;
+    top: 40px;
+    left: 0;
+    margin-left: 18px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.any {
+    display: inline;
+}
+
+.any::after {
+    content: "";
+    display: block;
+}
+
+.beaten {
+    display: inline;
+}
+
+.beaten::after {
+    content: "";
+    display: block;
+}
+
+.filled::after {
+    display: inline;
+}
+
+.filled::after {
+    content: "";
+    display: block;
+}
+
+.or {
+    display: inline;
+}
+
+.or::after {
+    content: "";
+    display: block;
+}
+
+.sectionII{
+    position: relative;
+    top: 60px;
+    left: 16px;
+    height: 210px;
+    width: 330px;
+    border-radius: 8px;
+    background-color: hsl(330, 100%, 98%);
+    color: hsl(332, 51%, 32%);
+}
+
+.Preparation{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    font-family: "Outfit", sans-serif;
+}
+
+.Preparation-ul{
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+
+::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+
+.Preparation-ul li::before{
+    content: "";
+    color: hsl(332, 51%, 32%);
+    margin-left: 20px;
+}
+
+li:first-child{
+    margin-bottom: 20px;
+    color:   hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.ten {
+    display: inline;
+}
+
+.ten::after {
+    content: "";
+    display: block;
+}
+
+.minutes {
+    position: relative;
+    left: 25px;
+}
+
+li:nth-child(2){
+    margin-bottom: 15px;
+    color:   hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+li:nth-child(3){
+    margin-bottom: 15px;
+    color:   hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+.Ingredients{
+    position: relative;
+    top: 90px;
+    left: 0;
+    color:hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    margin-left: 18px;
+}
+
+.Ingredients-ul{
+    position: relative;
+    top: 110px;
+    left: 15px;
+    margin-left: 25px;
+}
+
+::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+
+.Ingredients-ul li::before{
+    content: "";
+    color: hsl(332, 51%, 32%);
+    margin-left: 25px;
+}
+
+.Ingredients-ul li:first-child{
+    color:   hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+.Ingredients-ul li:nth-child(2){
+    color:   hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.Ingredients-ul li:nth-child(3){
+    color:   hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+
+.Ingredients-ul li:nth-child(4){
+    color:   hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+
+.Ingredients-ul li:nth-child(5){
+    color:   hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+/* .vegetables {
+    margin-left: 20px;
+} */
+
+.first-hr {
+    position: relative;
+    top: 130px;
+    left: 20px;
+    width: 300px;
+    color: hsl(30, 54%, 90%)
+}
+
+
+.Instructions{
+    position: relative;
+    top: 150px;
+    left: 0;
+    margin-left: 18px;
+    color:hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+}
+
+.Instructions-ol{
+    position: relative;
+    top: 170px;
+    left: 15px;
+    margin-left: 25px;
+    line-height: 1.5;
+}
+
+::marker{
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
+
+.Instructions-ol li::before{
+    content: "";
+    margin-left: 25px
+}
+
+.Instructions-ol li:first-child{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color:   hsl(30, 10%, 34%);
+}
+
+.the {
+    display: inline;
+}
+
+.the::after {
+    content: "";
+    display: block;
+}
+
+.pepper {
+    display: inline;
+}
+
+.pepper::after {
+    content: "";
+    display: block;
+}
+
+.add {
+    display: inline;
+}
+
+.add::after {
+    content: "";
+    display: block;
+}
+
+.a {
+    display: inline;
+}
+
+.a::after {
+    content: "";
+    display: block;
+}
+
+.eggs, .until, .tablespoon, .fluffier {
+    margin-left: 25px;
+}
+
+
+.Instructions-ol li:nth-child(2){
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color:   hsl(30, 10%, 34%);
+    line-height: 1.4;
+    text-indent: -26px;
+    padding-left: 26px;
+}
+
+.frying {
+    display: inline;
+}
+
+.frying::after { 
+    content: "";
+    display: block;
+}
+
+.butter {
+    display: inline;
+}
+
+.butter::after {
+    content: "";
+    display: block;
+}
+
+
+.Instructions-ol li:nth-child(3){
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color:   hsl(30, 10%, 34%);
+    line-height: 1.4;
+    text-indent: -26px;
+    padding-left: 26px;
+}
+
+.is {
+    display: inline;
+}
+
+.is::after {
+    content: "";
+    display: block;
+}
+
+.Tilt {
+    display: inline;
+}
+
+.Tilt::after {
+    content: "";
+    display: block;
+}
+
+.evenly {
+    display: inline;
+}
+
+.evenly::after {
+    content: "";
+    display: block;
+}
+
+
+.Instructions-ol li:nth-child(4){
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color:   hsl(30, 10%, 34%);
+    margin-bottom: 15px;
+    line-height: 1.4;
+    text-indent: -26px;
+    padding-left: 26px;
+}
+
+.begin {
+    display: inline;
+}
+
+.begin::after {
+    content: "";
+    display: block;
+}
+
+.still {
+    display: inline;
+}
+
+.still::after {
+    content: "";
+    display: block;
+}
+
+.sprinkle {
+    display: inline;
+}
+
+.sprinkle::after {
+    content: "";
+    display: block;
+}
+
+.of {
+    display: inline;
+}
+
+.of::after {
+    content: "";
+    display: block;
+}
+
+
+.Instructions-ol li:nth-child(5){
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color:   hsl(30, 10%, 34%);
+    margin-bottom: 15px;
+    line-height: 1.4;
+    text-indent: -26px;
+    padding-left: 26px;
+}
+
+.omelette {
+    display: inline;
+}
+
+.omelette::after {
+    content: "";
+    display: block;
+}
+
+.one {
+    display: inline;
+}
+
+.one::after {
+    content: "";
+    display: block;
+}
+
+.let {
+    display: inline;
+}
+
+.let::after {
+    content: "";
+    display: block;
+}
+
+.it {
+    display: inline;
+}
+
+.it::after {
+    content: "";
+    display: block;
+}
+
+.salt {
+    display: inline;
+}
+
+.salt::after {
+    content: "";
+    display: block;
+}
+
+
+.Instructions-ol li:last-child{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color:   hsl(30, 10%, 34%);
+    margin-bottom: 15px;
+    line-height: 1.4;
+    text-indent: -26px;
+    padding-left: 26px;
+}
+
+.last-hr {
+    position: relative;
+    top: 180px;
+    left: 20px;
+    width: 300px;
+    color: hsl(30, 54%, 90%)
+}
+
+
+.last-section{
+    position: relative;
+    top: 210px;
+    left: 0;
+    margin-left: 17px;
+}
+
+.Nutrition{
+    position: relative;
+    left: 0;
+    color:hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    margin-bottom: 17px;
+}
+
+.below{
+    position: relative;
+    left: 0;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color:   hsl(30, 10%, 34%);
+    margin-bottom: 17px;
+    line-height: 1.4;
+}
+
+.values {
+    display: inline;
+}
+
+.values::after {
+    content: "";
+    display: block;
+}
+
+th, td{
+    height: 40px;
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+    width: 170px;
+    margin-left: 40px;
+    padding: 20px;
+    color: hsl(24, 5%, 18%);
+}
+
+th{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+td{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color:  hsl(14, 45%, 36%);
+}
+
+
+.attribution {
+    position: absolute;
+    top: 2100px;
+    left: 100px;
+}
+
+@media screen and (min-width: 375px) {
+
+    .page  {
+        display: block;
+        min-height: 100vh;
+        width: 340px;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: hsl(0, 0%, 100%);
+    }
+    
+    img{
+        position: relative;
+        top: 0;
+        left: -30px;
+        height: 200px;
+        width: 400px;
+    }
+    
+    h1{
+        position: relative;
+        top: 20px;
+        left: -30px;
+        margin-left: 18px;
+        font-family: "Young Serif", serif;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    .Simple {
+        display: inline;
+    }
+
+    .Simple::after {
+        content: "";
+        display: block;
+    }
+    
+    .easy{
+        position: relative;
+        top: 40px;
+        left: -30px;
+        margin-left: 18px;
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    
+    .any {
+        display: inline;
+    }
+    
+    .any::after {
+        content: "";
+        display: block;
+    }
+    
+    .beaten {
+        display: inline;
+    }
+    
+    .beaten::after {
+        content: "";
+        display: block;
+    }
+    
+    .filled::after {
+        display: inline;
+    }
+    
+    .filled::after {
+        content: "";
+        display: block;
+    }
+    
+    .or {
+        display: inline;
+    }
+    
+    .or::after {
+        content: "";
+        display: block;
+    }
+    
+    .sectionII{
+        position: relative;
+        top: 60px;
+        left: -10px;
+        height: 210px;
+        width: 330px;
+        border-radius: 8px;
+        background-color: hsl(330, 100%, 98%);
+        color: hsl(332, 51%, 32%);
+    }
+    
+    .Preparation{
+        position: relative;
+        top: 15px;
+        left: 15px;
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+    }
+    
+    .Preparation-ul{
+        position: relative;
+        top: 25px;
+        left: 50px;
+    }
+    
+    ::marker{
+        color: hsl(332, 51%, 32%);
+    }
+    
+    
+    .Preparation-ul li::before{
+        content: "";
+        color: hsl(332, 51%, 32%);
+        margin-left: 20px;
+    }
+    
+    li:first-child{
+        margin-bottom: 20px;
+        color:   hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    
+    .ten {
+        display: inline;
+    }
+    
+    .ten::after {
+        content: "";
+        display: block;
+    }
+    
+    .minutes {
+        position: relative;
+        left: 25px;
+    }
+    
+    li:nth-child(2){
+        margin-bottom: 15px;
+        color:   hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+    }
+    
+    li:nth-child(3){
+        margin-bottom: 15px;
+        color:   hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+    }
+    
+    .Ingredients{
+        position: relative;
+        top: 90px;
+        left: -35px;
+        margin-left: 18px;
+        color:hsl(14, 45%, 36%);
+        font-family: "Young Serif", serif;
+    }
+    
+    .Ingredients-ul{
+        position: relative;
+        top: 110px;
+        left: -20px;
+        margin-left: 25px;
+    }
+    
+    ::marker{
+        color: hsl(332, 51%, 32%);
+    }
+    
+    
+    .Ingredients-ul li::before{
+        content: "";
+        color: hsl(332, 51%, 32%);
+        margin-left: 20px;
+    }
+    
+    .Ingredients-ul li:first-child{
+        color:   hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+    }
+    
+    .Ingredients-ul li:nth-child(2){
+        color:   hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    
+    .Ingredients-ul li:nth-child(3){
+        color:   hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    
+    
+    .Ingredients-ul li:nth-child(4){
+        color:   hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    
+    
+    .Ingredients-ul li:nth-child(5){
+        color:   hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    
+    .vegetables {
+        margin-left: 20px;
+    }
+    
+    .first-hr {
+        position: relative;
+        top: 130px;
+        left: 5px;
+        width: 300px;
+        color: hsl(30, 54%, 90%)
+    }
+    
+    
+    .Instructions{
+        position: relative;
+        top: 150px;
+        left: -35px;
+        margin-left: 18px;
+        color:hsl(14, 45%, 36%);
+        font-family: "Young Serif", serif;
+    }
+    
+    .Instructions-ol{
+        position: relative;
+        top: 170px;
+        left: -20px;
+        margin-left: 25px;
+        line-height: 1.5;
+        margin-left: 20px;
+    }
+    
+    ::marker{
+        color: hsl(332, 51%, 32%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+    }
+    
+    .Instructions-ol li::before{
+        content: "";
+        margin-left: 25px
+    }
+    
+    .Instructions-ol li:first-child{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        color:   hsl(30, 10%, 34%);
+    }
+    
+    .the {
+        display: inline;
+    }
+    
+    .the::after {
+        content: "";
+        display: block;
+    }
+    
+    .pepper {
+        display: inline;
+    }
+    
+    .pepper::after {
+        content: "";
+        display: block;
+    }
+    
+    .add {
+        display: inline;
+    }
+    
+    .add::after {
+        content: "";
+        display: block;
+    }
+    
+    .a {
+        display: inline;
+    }
+    
+    .a::after {
+        content: "";
+        display: block;
+    }
+    
+    .eggs, .until, .tablespoon, .fluffier {
+        margin-left: 25px;
+    }
+    
+    
+    .Instructions-ol li:nth-child(2){
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        color:   hsl(30, 10%, 34%);
+        line-height: 1.4;
+        text-indent: -26px;
+        padding-left: 26px;
+    }
+    
+    .frying {
+        display: inline;
+    }
+    
+    .frying::after { 
+        content: "";
+        display: block;
+    }
+    
+    .butter {
+        display: inline;
+    }
+    
+    .butter::after {
+        content: "";
+        display: block;
+    }
+    
+    
+    .Instructions-ol li:nth-child(3){
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        color:   hsl(30, 10%, 34%);
+        line-height: 1.4;
+        text-indent: -26px;
+        padding-left: 26px;
+    }
+    
+    .is {
+        display: inline;
+    }
+    
+    .is::after {
+        content: "";
+        display: block;
+    }
+    
+    .Tilt {
+        display: inline;
+    }
+    
+    .Tilt::after {
+        content: "";
+        display: block;
+    }
+    
+    .evenly {
+        display: inline;
+    }
+    
+    .evenly::after {
+        content: "";
+        display: block;
+    }
+    
+    
+    .Instructions-ol li:nth-child(4){
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        color:   hsl(30, 10%, 34%);
+        margin-bottom: 15px;
+        line-height: 1.4;
+        text-indent: -26px;
+        padding-left: 26px;
+    }
+    
+    .begin {
+        display: inline;
+    }
+    
+    .begin::after {
+        content: "";
+        display: block;
+    }
+    
+    .still {
+        display: inline;
+    }
+    
+    .still::after {
+        content: "";
+        display: block;
+    }
+    
+    .sprinkle {
+        display: inline;
+    }
+    
+    .sprinkle::after {
+        content: "";
+        display: block;
+    }
+    
+    .of {
+        display: inline;
+    }
+    
+    .of::after {
+        content: "";
+        display: block;
+    }
+    
+    
+    .Instructions-ol li:nth-child(5){
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        color:   hsl(30, 10%, 34%);
+        margin-bottom: 15px;
+        line-height: 1.4;
+        text-indent: -26px;
+        padding-left: 26px;
+    }
+    
+    .omelette {
+        display: inline;
+    }
+    
+    .omelette::after {
+        content: "";
+        display: block;
+    }
+    
+    .one {
+        display: inline;
+    }
+    
+    .one::after {
+        content: "";
+        display: block;
+    }
+    
+    .let {
+        display: inline;
+    }
+    
+    .let::after {
+        content: "";
+        display: block;
+    }
+    
+    .it {
+        display: inline;
+    }
+    
+    .it::after {
+        content: "";
+        display: block;
+    }
+    
+    .salt {
+        display: inline;
+    }
+    
+    .salt::after {
+        content: "";
+        display: block;
+    }
+    
+    
+    .Instructions-ol li:last-child{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        color:   hsl(30, 10%, 34%);
+        margin-bottom: 15px;
+        line-height: 1.4;
+        text-indent: -26px;
+        padding-left: 26px;
+    }
+    
+    .last-hr {
+        position: relative;
+        top: 180px;
+        left: 5px;
+        width: 300px;
+        color: hsl(30, 54%, 90%)
+    }
+    
+    
+    .last-section{
+        position: relative;
+        top: 210px;
+        left: -53px;
+    }
+    
+    .Nutrition{
+        position: relative;
+        left: 5px;
+        margin-left: 18px;
+        color:hsl(14, 45%, 36%);
+        font-family: "Young Serif", serif;
+        margin-bottom: 20px;
+    }
+    
+    .below{
+        position: relative;
+        left: 25px;
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        color:   hsl(30, 10%, 34%);
+        margin-bottom: 25px;
+        line-height: 1.4;
+    }
+    
+    .values {
+        display: inline;
+    }
+    
+    .values::after {
+        content: "";
+        display: block;
+    }
+    
+    th, td{
+        height: 40px;
+        border-bottom: 1px solid  hsl(30, 18%, 87%);
+        width: 170px;
+        margin-left: 40px;
+        padding: 20px;
+        color: hsl(24, 5%, 18%);
+    }
+    
+    th{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        color: hsl(30, 10%, 34%);
+    }
+    
+    td{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        color:  hsl(14, 45%, 36%);
+    }
+    
+    
+    .attribution {
+        position: absolute;
+        top: 2100px;
+        left: 100px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .page {
+        position: relative;
+        top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+        height: 105rem;
+        width: 700px;
+        background-color: hsl(0, 0%, 100%);
+        border: 2px solid hsl(0, 0%, 100%);
+        border-radius: 10px;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: hsl(30, 18%, 87%)
+    }
+
+    img{
+        position: relative;
+        top: -105px;
+        left: 0;
+        height: 200px;
+        width: 650px;
+        border-radius: 10px;
+    }
+    
+    h1{
+        position: relative;
+        top: -80px;
+        left: -15px;
+        /* margin-left: 18px; */
+        font-family: "Young Serif", serif;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    .Simple {
+        display: inline;
+    }
+
+    .Simple::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    .easy{
+        position: relative;
+        top: -55px;
+        left: -15px;
+        margin-left: 18px;
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .any {
+        display: inline;
+    }
+    
+    .any::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    .beaten {
+        display: inline;
+    }
+    
+    .beaten::after {
+        content: "";
+        display: inline-block;
+    }
+
+    .cooked {
+        display: inline;
+    }
+
+    .cooked::after {
+        content: "";
+        display: block;
+    }
+    
+    .filled::after {
+        display: inline;
+    }
+    
+    .filled::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    .or {
+        display: inline;
+    }
+    
+    .or::after {
+        content: "";
+        display: inline-block;
+    }
+
+    .sectionII {
+        position: relative;
+        top: -25px;
+        left: -8px;
+        width: 650px;
+    }
+
+    .Preparation{
+        position: relative;
+        top: 15px;
+        left: 15px;
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        color: hsl(332, 51%, 32%);
+    }
+    
+    .Preparation-ul{
+        position: relative;
+        top: 25px;
+        left: 50px;
+    }
+    
+    ::marker{
+        color: hsl(332, 51%, 32%);
+    }
+    
+    
+    .Preparation-ul li::before{
+        content: "";
+        color: hsl(332, 51%, 32%);
+        margin-left: 20px;
+    }
+    
+    li:first-child{
+        margin-bottom: 20px;
+        color:   hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    
+    .ten {
+        display: inline;
+    }
+    
+    .ten::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    .minutes {
+        position: relative;
+        left: 0;
+    }
+    
+    li:nth-child(2){
+        margin-bottom: 15px;
+        color:   hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+    }
+    
+    li:nth-child(3){
+        margin-bottom: 15px;
+        color:   hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+    }
+
+    .Ingredients{
+        position: relative;
+        top: 1px;
+        left: -98px;
+        margin-left: 18px;
+        color:hsl(14, 45%, 36%);
+        font-family: "Young Serif", serif;
+    }
+    
+    .Ingredients-ul{
+        position: relative;
+        top: 10px;
+        left: -84px;
+        margin-left: 25px;
+    }
+    
+    ::marker{
+        color: hsl(332, 51%, 32%);
+    }
+    
+    
+    .Ingredients-ul li::before{
+        content: "";
+        color: hsl(332, 51%, 32%);
+        margin-left: 20px;
+    }
+    
+    .Ingredients-ul li:first-child{
+        color:   hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+    }
+    
+    .Ingredients-ul li:nth-child(2){
+        color:   hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    
+    .Ingredients-ul li:nth-child(3){
+        color:   hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    
+    
+    .Ingredients-ul li:nth-child(4){
+        color:   hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    
+    
+    .Ingredients-ul li:nth-child(5){
+        color:   hsl(30, 10%, 34%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    
+    .vegetables {
+        margin-left: 0
+    }
+    
+    .first-hr {
+        position: relative;
+        top: 17px;
+        left: 0px;
+        width: 640px;
+        color: hsl(30, 54%, 90%)
+    }
+
+    .Instructions{
+        position: relative;
+        top: 40px;
+        left: -26px;
+        margin-left: 18px;
+        color:hsl(14, 45%, 36%);
+        font-family: "Young Serif", serif;
+    }
+    
+    .Instructions-ol{
+        position: relative;
+        top: 55px;
+        left: 2px;
+        margin-left: 25px;
+        line-height: 1.5;
+        margin-left: 20px;
+    }
+    
+    ::marker{
+        color: hsl(332, 51%, 32%);
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+    }
+    
+    .Instructions-ol li::before{
+        content: "";
+        margin-left: 25px
+    }
+    
+    .Instructions-ol li:first-child{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        color:   hsl(30, 10%, 34%);
+    }
+
+    .they {
+        display: inline;
+    }
+
+    .they::after {
+        content: "";
+        display: block;
+    }
+    
+    .the {
+        display: inline;
+    }
+    
+    .the::after {
+        content: "";
+        display: inline-block;
+    }
+
+    
+    .pepper {
+        display: inline;
+    }
+    
+    .pepper::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    .add {
+        display: inline;
+    }
+    
+    .add::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    .a {
+        display: inline;
+    }
+    
+    .a::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    .eggs, .until, .tablespoon, .fluffier {
+        margin-left: 0;
+    }
+
+    .mixed {
+        margin-left: 25px;
+    }
+    
+    
+    .Instructions-ol li:nth-child(2){
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        color:   hsl(30, 10%, 34%);
+        line-height: 1.4;
+        text-indent: -26px;
+        padding-left: 26px;
+    }
+    
+    .frying {
+        display: inline;
+    }
+    
+    .frying::after { 
+        content: "";
+        display: inline-block;
+    }
+    
+    .butter {
+        display: inline;
+    }
+    
+    .butter::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    
+    .Instructions-ol li:nth-child(3){
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        color:   hsl(30, 10%, 34%);
+        line-height: 1.4;
+        text-indent: -26px;
+        padding-left: 26px;
+    }
+    
+    .is {
+        display: inline;
+    }
+    
+    .is::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    .Tilt {
+        display: inline;
+    }
+    
+    .Tilt::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    .evenly {
+        display: inline;
+    }
+    
+    .evenly::after {
+        content: "";
+        display: inline-block;
+    }
+
+    .pan {
+        display: inline;
+    }
+
+    .pan::after {
+        content: "";
+        display: block;
+    }
+    
+    
+    .Instructions-ol li:nth-child(4){
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        color:   hsl(30, 10%, 34%);
+        margin-bottom: 15px;
+        line-height: 1.4;
+        text-indent: -26px;
+        padding-left: 26px;
+    }
+    
+    .begin {
+        display: inline;
+    }
+    
+    .begin::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    .still {
+        display: inline;
+    }
+    
+    .still::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    .sprinkle {
+        display: inline;
+    }
+    
+    .sprinkle::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    .of {
+        display: inline;
+    }
+    
+    .of::after {
+        content: "";
+        display: inline-block;
+    }
+
+    .slightly {
+        display: inline;
+    }
+
+    .slightly::after {
+        content: "";
+        display: block;
+    }
+    
+    
+    .Instructions-ol li:nth-child(5){
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        color:   hsl(30, 10%, 34%);
+        margin-bottom: 15px;
+        line-height: 1.4;
+        text-indent: -26px;
+        padding-left: 26px;
+    }
+    
+    .omelette {
+        display: inline;
+    }
+    
+    .omelette::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    .one {
+        display: inline;
+    }
+    
+    .one::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    .let {
+        display: inline;
+    }
+    
+    .let::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    .it {
+        display: inline;
+    }
+    
+    .it::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    .salt {
+        display: inline;
+    }
+    
+    .salt::after {
+        content: "";
+        display: inline-block;
+    }
+
+    .over {
+        display: inline;
+    }
+
+    .over::after {
+        content: "";
+        display: block;
+    }
+    
+    
+    .Instructions-ol li:last-child{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        color:   hsl(30, 10%, 34%);
+        margin-bottom: 15px;
+        line-height: 1.4;
+        text-indent: -26px;
+        padding-left: 26px;
+    }
+    
+    .last-hr {
+        position: relative;
+        top: 60px;
+        left: 0px;
+        width: 640px;
+        color: hsl(30, 54%, 90%)
+    }
+
+    .last-section{
+        position: relative;
+        top: 30px;
+        left: 0;
+    }
+    
+    .Nutrition{
+        position: relative;
+        top: 48px;
+        left: -20px;
+        margin-left: 18px;
+        color:hsl(14, 45%, 36%);
+        font-family: "Young Serif", serif;
+        margin-bottom: 20px;
+    }
+    
+    .below{
+        position: relative;
+        top: 35px;
+        left: -2px;
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        color:   hsl(30, 10%, 34%);
+        margin-bottom: 25px;
+        line-height: 1.4;
+    }
+    
+    .values {
+        display: inline;
+    }
+    
+    .values::after {
+        content: "";
+        display: inline-block;
+    }
+    
+    th, td{
+        height: 40px;
+        border-bottom: 1px solid  hsl(30, 18%, 87%);
+        width: 450px;
+        margin-left: 40px;
+        padding: 20px;
+        color: hsl(24, 5%, 18%);
+    }
+    
+    th{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        color: hsl(30, 10%, 34%);
+    }
+    
+    td{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        color:  hsl(14, 45%, 36%);
+    }
+    
+    
+    .attribution {
+        position: absolute;
+        top: 1700px;
+     text-align: center;
+    }
+    
+}
